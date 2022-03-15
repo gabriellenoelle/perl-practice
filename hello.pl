@@ -81,3 +81,28 @@ say "INT 6.45 = ", int(6.45);
 say "LOG 2 = ", log 2;
 say "Random between 0 - 10 = ", int(rand 11);
 say "SQRT 9 = ", sqrt 9;
+
+# Coditionals
+
+my $yourage = 80;
+my $is_not_intoxicated = 1;
+my $age_last_exam = 16;
+
+if($yourage < 16){ 
+    say "You can't drive";
+} elsif(!$is_not_intoxicated) {
+    say "You can't drive";
+} else {
+    say "You can drive";
+}
+
+# Boolean Examples
+if (($yourage >= 1) && ($yourage < 16)){
+    say "You can't drive";
+} elsif(!$is_not_intoxicated){
+    say "You can't drive";
+} elsif(($yourage >= 80) && (($yourage > 100) || (($yourage - $age_last_exam) > 5))){
+    say "You can't drive";
+} else {
+    say "You can drive";
+}
