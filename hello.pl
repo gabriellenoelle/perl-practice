@@ -33,7 +33,12 @@ END
 
 say $bunch_on_info;
 
+# This integer is the largest that can store in Perl
+
 my $big_int = 18446744073709551615;
+
+# Examples of defining data types for formatting strings
+# for use with printf() function
 
 # %c : Character
 # %s : string
