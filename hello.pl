@@ -48,3 +48,27 @@ my $big_int = 18446744073709551615;
 # %e : Floating Point (Scientific Notation)
 
 printf("%u \n", $big_int + 1);
+
+# big_float has 16 digits of precision
+
+my $big_float = .1000000000000001;
+
+printf("%.16f \n", $big_float + .1000000000000001);
+
+my $first = 1;
+my $second = 2;
+
+($first, $second) = ($second, $first);
+
+say "$first $second";
+
+# Math Functions in Perl
+
+say "5 + 4 = ", 5 + 4;
+say "5 - 4 = ", 5 - 4;
+say "5 * 4 = ", 5 * 4;
+say "5 / 4 = ", 5 / 4;
+# Percentage sign is called 'modulus'
+say "5 % 4 = ", 5 % 4;
+# The below will calculate 5 to the power of 4
+say "5 ** 4 = ", 5 ** 4;
