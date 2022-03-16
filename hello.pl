@@ -106,3 +106,9 @@ if (($yourage >= 1) && ($yourage < 16)){
 } else {
     say "You can drive";
 }
+
+if('a' eq 'b'){
+    say "a equals b";
+} else {
+    say "a doesn't equal b";
+}
