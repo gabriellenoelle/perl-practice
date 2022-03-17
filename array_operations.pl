@@ -66,6 +66,10 @@ print("@sorted", "\n"); # apples cucumber mango oranges
 # change the sort algorithm
 # to sort an array in numerical order, change the default sorting algorithm
 
+# $a and $b are global variables defined by sort() for sorting
+# the operator <=> compares two numbers
+# {$a <=> $b} returns -1 if $a < $b, 0 if $a = $b, and 1 if $a > $b
+
 my @a = qw(3 2 1 4 7 6);
 print("unsorted: ", "@a", "\n"); # unsorted: 3 2 1 4 7 6
 @a = sort{$a <=> $b} @a;
