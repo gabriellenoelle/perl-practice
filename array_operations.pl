@@ -5,6 +5,9 @@ use strict;
 
 my @stack = (); # empty array
 
+# push() appends one or more elements to the end of an array
+# pop() removes the last element from the end of an array
+
 print("push 1 to array\n");
 push(@stack,1);
 
