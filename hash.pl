@@ -17,7 +17,13 @@ my %langs =
 France => 'French',
 Spain => 'Spanish',
 China => 'Chinese',
-Germany => 'German');
+Germany => 'German',
+Keegan => 'Keeganese');
+
+my @array = [1, 2, 3, 4];
+my %hash =
+( Cookies => 'cookie monster',
+Slimey => 'Oscar the grouch');
 
 # Looking up perl hash values
 # get language of england
@@ -44,3 +50,8 @@ $langs{'India'} = 'Hindi';
 for(keys %langs){
     print("Official Language of $_ is $langs{$_}\n");
 }
+
+for(keys %hash){
+    print("Official Character of $_ is %hash{$_}\n");
+}
+
