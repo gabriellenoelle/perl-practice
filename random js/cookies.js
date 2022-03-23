@@ -5,3 +5,5 @@ function cookie(chocolate, chips) {
 
 const chocolate = pastry;
 const chips = morsels;
+
+console.log(pastry_Shop);
