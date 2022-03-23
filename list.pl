@@ -66,3 +66,20 @@ print(
 );
 print "\n"; # new line
 
+# To get multiple elements of a list at once
+# you can put a list inside square brackets
+# This is a list slice
+
+print(
+(1,2,3,4,5)[0,2,3] # returns a list of (1, 3, 4)
+);
+
+# Ranges
+# Perl allows you to build a list
+# based on a range of numbers or characters
+# For ex., a list of numbers from 1 - 100
+# or a list of characters from a - z
+# These two examples define two lists
+
+    # (1..100)
+    # (a..z)
