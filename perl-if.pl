@@ -47,3 +47,31 @@ if($a == $b){
  print("a and b are not equal\n");
 }
 
+# Perl if elsif
+# In some cases, you want to test more than one condition
+# Example:
+# if $a and $b are equal, then do this.
+# if $a is greater than $b, then do that.
+# Otherwise, do something else.
+
+# if(expression){
+#     ...
+# } elsif(expression2){
+#     ...
+# } elsif(expression3){
+#     ...
+# } else {
+#     ...
+# }
+
+my $a = 1;
+my $b = 2;
+
+if($a == $b){
+   print("a and b are equal\n");
+}elsif($a > $b){
+   print("a is greater than b\n");
+}else{
+   print("a is less than b\n");
+}
+
