@@ -14,3 +14,20 @@ foreach(@a){
     print("$i","\n"); # if we use a specific iterator, like $i, it will print the integer 20... 9 times
 }
 
+for $i (@a){
+    print("$i","\n");
+}
+print('iterator $i is ',"$i","\n"); # prints "iterator $i is 20"
+
+# Perl for loop iterator: value or alias
+
+my @b = (1..5);
+
+print("Before the loop: @b \n");
+
+for(@b){
+	$_ = $_ * 2; 
+}
+
+print("After the loop: @b \n");
+
